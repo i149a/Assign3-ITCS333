@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics of Students' Nationalities</title>
+    <!-- Add TailwindCSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <main class="container mx-auto p-6">
+        <h1 class="text-3xl font-semibold text-center mb-2">Statistics of IT Students' Nationalities</h1>
+        <h2 class="text-md font-semibold text-center mb-6" id="rowsNo">
+            <!-- Number of rows will be inserted here dynamically -->
+        </h2>
+
+        <div id="students-table-wrapper" class="overflow-x-auto">
+            <table id="students-table" class="min-w-full table-auto border-collapse bg-white rounded-lg shadow-lg">
+                <thead style="background-color: #fecaca;">
+                    <tr>
+                        <th class="py-2 px-4 text-left text-sm font-bold text-center">Year</th>
+                        <th class="py-2 px-4 text-left text-sm font-bold text-center">Semester</th>
+                        <th class="py-2 px-4 text-left text-sm font-bold text-center">The Programs</th>
+                        <th class="py-2 px-4 text-left text-sm font-bold text-center">Nationality</th>
+                        <th class="py-2 px-4 text-left text-sm font-bold text-center">Colleges</th>
+                        <th class="py-2 px-4 text-left text-sm font-bold text-center">Number of Students</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted here dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="backend.js"></script>
+</body>
+</html>
